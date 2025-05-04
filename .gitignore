@@ -1,3 +1,1 @@
-
-# Ignore all files in all directories
-*.csv
+data/raw/*.csv
