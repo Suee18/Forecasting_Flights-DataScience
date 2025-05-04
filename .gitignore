@@ -1,1 +1,2 @@
 data/raw/*.csv
+# to ignore all csv files in the data/raw directory
