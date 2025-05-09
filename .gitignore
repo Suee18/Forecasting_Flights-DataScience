@@ -1,2 +1,8 @@
 data/raw/*.csv
-# to ignore all csv files in the data/raw directory
+README.md
+data/processed/*.csv
+docs/*
+src/data/__pycache__/*
+src/models/__pycache__/*
+src/pipelines/__pycache__/*
+src/visualization/__pycache__/*
