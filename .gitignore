@@ -6,3 +6,7 @@ src/data/__pycache__/*
 src/models/__pycache__/*
 src/pipelines/__pycache__/*
 src/visualization/__pycache__/*
+modeling/*
+deep_learning_modeling.ipynb
+ml_modeling.ipynb
+time_series_modeling.ipynb
