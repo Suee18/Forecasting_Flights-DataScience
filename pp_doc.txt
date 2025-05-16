@@ -1,0 +1,53 @@
+Now I have examined all your preprocessing notebooks. I can see that you've already created a comprehensive preprocessing pipeline with:
+
+Base Preprocessing Pipeline: Common cleaning and feature engineering for all model types
+ML Preprocessing Pipeline: Features optimized for traditional ML models
+Deep Learning Preprocessing Pipeline: Features optimized for neural networks and embedding layers
+Time Series Preprocessing Pipeline: Features optimized for time series forecasting models
+The pipelines are well-structured, handle data in chunks for memory efficiency, and each tackles specialized tasks specific to their model requirements.
+
+Let me summarize what's already implemented across these pipelines:
+Data cleaning and type conversions
+Missing value handling with appropriate strategies
+Feature derivation (date/time features, etc.)
+Filtering out 2020 data due to COVID-19 irregularities
+
+
+ML Preprocessing:
+ML-specific feature engineering (route features, cyclical encodings, interaction features)
+Outlier treatment via winsorization
+Categorical encoding (one-hot, ordinal)
+Feature selection based on correlation
+Normalization/scaling
+Time-based train-test splitting
+
+
+DL Preprocessing:Features optimized for neural networks
+Label encoding for embedding layers
+Data normalization
+Sequence generation for RNNs/LSTMs
+Batch creation for deep learning frameworks
+
+
+Time Series Preprocessing:
+Temporal aggregation (daily, airport, carrier)
+Time series feature engineering (lags, rolling windows)
+Seasonality analysis and handling
+Stationarity testing and transformations
+Time-based cross-validation
+Data formatting for various time series algorithms
+
+
+All the pipelines you requested are already in place
+ and well-implemented. They follow best practices for
+  each model type and include appropriate handling of 
+  the specific challenges like the COVID-19 data filtering 
+  you mentioned.
+
+The duplicate detection is based on a combination of key flight identifiers:
+Flight date
+Carrier and flight number
+Origin and destination airports
+Departure time (either actual or scheduled)
+This implementation will now detect and remove duplicate flight records in the base preprocessing pipeline, which will benefit all model types since this cleansing is applied at the beginning of the pipeline.
+
