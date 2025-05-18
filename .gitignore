@@ -1,3 +1,4 @@
+data/
 data/raw/*.csv
 README.md
 data/processed/*.csv
