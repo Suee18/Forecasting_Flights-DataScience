@@ -11,3 +11,7 @@ modeling/*
 deep_learning_modeling.ipynb
 ml_modeling.ipynb
 time_series_modeling.ipynb
+sarima_forecast_results.csv
+sarima_model.pkl
+references.bib
+flight_delay_analysis.tex
