@@ -1,0 +1,5 @@
+run 
+0. eda->cells output, reports 
+1.preprocesssing pipelines 
+base.ipynb HAS TO RUN FIRST TO GENERATE THE CSV THAT GOES TO NEXT PIPELINES 
+02.ML 03.DL 0.4TS =>preprocesssing pipelines notebooks 
