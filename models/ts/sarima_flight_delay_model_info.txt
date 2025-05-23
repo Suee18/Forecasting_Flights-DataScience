@@ -1,6 +1,0 @@
-type: SARIMA
-order: (2, 0, 1)
-seasonal_order: (0, 1, 1, 7)
-aic: 2250.0651890603835
-bic: 2277.221687436163
-fitted_date: 2025-05-22

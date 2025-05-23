@@ -15,3 +15,9 @@ sarima_forecast_results.csv
 sarima_model.pkl
 references.bib
 flight_delay_analysis.tex
+*.csv
+*.json
+*.xlsx
+*.pkl
+*.txt
+.DS_Store
